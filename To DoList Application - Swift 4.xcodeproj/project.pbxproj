@@ -12,6 +12,8 @@
 		99FD22532045693E003E3298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FD22512045693E003E3298 /* Main.storyboard */; };
 		99FD22552045693E003E3298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FD22542045693E003E3298 /* Assets.xcassets */; };
 		99FD22582045693E003E3298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99FD22562045693E003E3298 /* LaunchScreen.storyboard */; };
+		99FD226020456C18003E3298 /* addItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD225F20456C18003E3298 /* addItemView.swift */; };
+		99FD226220456D80003E3298 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD226120456D80003E3298 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		99FD22542045693E003E3298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99FD22572045693E003E3298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99FD22592045693E003E3298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99FD225F20456C18003E3298 /* addItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addItemView.swift; sourceTree = "<group>"; };
+		99FD226120456D80003E3298 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				99FD224D2045693E003E3298 /* AppDelegate.swift */,
 				99FD224F2045693E003E3298 /* ViewController.swift */,
+				99FD225F20456C18003E3298 /* addItemView.swift */,
 				99FD22512045693E003E3298 /* Main.storyboard */,
 				99FD22542045693E003E3298 /* Assets.xcassets */,
 				99FD22562045693E003E3298 /* LaunchScreen.storyboard */,
 				99FD22592045693E003E3298 /* Info.plist */,
+				99FD226120456D80003E3298 /* Constants.swift */,
 			);
 			path = "To DoList Application - Swift 4";
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				99FD22502045693E003E3298 /* ViewController.swift in Sources */,
 				99FD224E2045693E003E3298 /* AppDelegate.swift in Sources */,
+				99FD226020456C18003E3298 /* addItemView.swift in Sources */,
+				99FD226220456D80003E3298 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
